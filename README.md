@@ -27,9 +27,10 @@ Several machine learning models were explored:
 - Support Vector Machine (SVM)
 The best-performing model was selected based on accuracy and F1 score.
 ---
+pip install jupyterlab
 ### **Step 6: Add Results and Visualizations**
 ```markdown
-## 📈 Results
+## Results
 The model achieved the following metrics on the test set:
 - **Accuracy:** 85%
 - **Precision:** 83%
