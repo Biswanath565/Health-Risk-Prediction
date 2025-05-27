@@ -26,7 +26,20 @@ Several machine learning models were explored:
 - Random Forest Classifier
 - Support Vector Machine (SVM)
 The best-performing model was selected based on accuracy and F1 score.
+---
+### **Step 6: Add Results and Visualizations**
+```markdown
+## 📈 Results
+The model achieved the following metrics on the test set:
+- **Accuracy:** 85%
+- **Precision:** 83%
+- **Recall:** 82%
+- **F1 Score:** 82%
+Visualizations such as confusion matrix, ROC curve, and feature importance plots are included in the notebook.
+## How to Run
 Clone the repository:
 ```bash
 git clone https://github.com/your-username/Health-Risk-Prediction.git
 cd Health-Risk-Prediction
+pip install -r requirements.txt
+jupyter notebook ml-based-health-risk-from-lifestyle-data.ipynb
